@@ -26,3 +26,29 @@ ENDPOINT: /region/get/
 METHOD: get
 RESPONSE: Complete Region list
 
+============================================================================= 
+
+ENDPOINT: /prediction/post/
+METHOD: post
+Required Values:
+    platforms:ANDROID
+    modules:QA
+    modules:Docker
+    modules:SEO management
+    platforms:FLUTTER
+    modules:landing page
+    modules:live chat
+    modules:Breadcrumb navigation
+    modules:store management
+    modules:Student Dashboard
+    modules:Certificate
+
+RESPONSE: Predicted Designation list for each Platforms
+
+============================================================================= 
+
+ENDPOINT: /training/post/
+METHOD: post
+RESPONSE: Train model
+
+https://resource-prediction.herokuapp.com/
