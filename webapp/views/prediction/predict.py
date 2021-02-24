@@ -27,7 +27,7 @@ def predict(requirements):
                     model_input.append(0)
                     
             Predicted_Designation = prediction_model[platform].predict([model_input])
-    #         group.append(result[0])
+            # print(Predicted_Designation[0])
             
             query = '''SELECT
                         webapp_designation.designation AS Employee_Designation,
