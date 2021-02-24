@@ -1,0 +1,28 @@
+ENDPOINT: /template/get/
+METHOD: get
+RESPONSE: Complete Template objects list
+
+============================================================================= 
+
+ENDPOINT: /modules/get/
+METHOD: get
+RESPONSE: Complete Modules objects list
+
+============================================================================= 
+
+ENDPOINT: /modules/byTemplate/{template_id}/
+METHOD: get
+RESPONSE: Complete objects list
+
+============================================================================= 
+
+ENDPOINT: /platform/get/
+METHOD: get
+RESPONSE: Complete Platforms list
+
+============================================================================= 
+
+ENDPOINT: /region/get/
+METHOD: get
+RESPONSE: Complete Region list
+

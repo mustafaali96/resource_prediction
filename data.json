@@ -1,0 +1,4260 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-02-17T11:01:19.681Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "1",
+        "object_repr": "DevOps Engineer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-02-17T11:01:29.979Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "2",
+        "object_repr": "MERN Stack Developer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-02-17T11:01:33.383Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "3",
+        "object_repr": "SQA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-02-17T11:01:36.804Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "4",
+        "object_repr": "SEO Expert",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-02-17T11:01:40.966Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "5",
+        "object_repr": "Designer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-02-17T11:01:44.931Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "6",
+        "object_repr": "IOS Developer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-02-17T11:01:57.144Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "7",
+        "object_repr": "Android Developer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-02-17T11:02:01.395Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "8",
+        "object_repr": "Fullstack Developer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-02-17T11:02:07.763Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "9",
+        "object_repr": "System Engineer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-02-17T11:02:12.314Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "10",
+        "object_repr": "Sr IOS Developer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-02-17T11:02:18.994Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "11",
+        "object_repr": "Flutter Developer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-02-17T11:02:23.584Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "12",
+        "object_repr": "Ionic Developer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-02-17T11:02:28.004Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "13",
+        "object_repr": "React Native Developer",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-02-17T11:09:12.255Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "North America",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-02-17T11:09:18.165Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "North East Asia",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-02-17T11:09:23.489Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Oceania",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-02-17T11:09:30.705Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "MENA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-02-17T11:09:33.727Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Europe & Latin America",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-02-17T11:13:30.432Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "ANDROID",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-02-17T11:13:38.515Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "WEB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-02-17T11:13:42.016Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "IOS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-02-17T11:13:47.916Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "REACT_NATIVE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-02-17T11:13:54.442Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "FLUTTER",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-02-17T11:13:59.449Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "IONIC",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "id4z1d8rht7obwgw55iiyrq2mh58y7ot",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-rWMo6TmDtfZucAA5UpxUiLvjSCmgnZn33iLitpa4NV7iROIitDj9soT5yXUX9MB6n2We67pMSe6JPGyTt5n4dT3av4OCrfS1claPTKCcUhotGm8wBAdu4DwCJbCJqTfgg_O2g7Meks-ErIMBk8XnC8aZN1w:1lCKZ1:Lsto332KaF3m8EC8Zl2zXtaGxy6Uv7G-Y8DAk7iiSvY",
+        "expire_date": "2021-03-03T11:00:11.041Z"
+    }
+},
+{
+    "model": "webapp.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$QYegOJRAr84W$tkPpASPl33tOkUbTdny93l7UL4oesarnqj52TmBJkY8=",
+        "last_login": "2021-02-17T11:00:11.012Z",
+        "is_superuser": true,
+        "username": "mustafa",
+        "first_name": "",
+        "last_name": "",
+        "email": "ssuet.se2016@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-17T10:59:56.854Z",
+        "bonus": null,
+        "user_designation": null,
+        "groups": [],
+        "user_permissions": [],
+        "user_platform": []
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 1,
+    "fields": {
+        "module": "login/signup",
+        "description": "login/signup screens"
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 2,
+    "fields": {
+        "module": "landing page",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 3,
+    "fields": {
+        "module": "popup notifications",
+        "description": "notification"
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 4,
+    "fields": {
+        "module": "video embedding",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 5,
+    "fields": {
+        "module": "language options",
+        "description": "translations"
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 6,
+    "fields": {
+        "module": "search bar",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 7,
+    "fields": {
+        "module": "shopping cart",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 8,
+    "fields": {
+        "module": "wishlist",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 9,
+    "fields": {
+        "module": "CTA",
+        "description": "Call To Action buttons"
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 10,
+    "fields": {
+        "module": "Map",
+        "description": "Map integration"
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 11,
+    "fields": {
+        "module": "FAQ",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 12,
+    "fields": {
+        "module": "shipping information",
+        "description": "shipping details"
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 13,
+    "fields": {
+        "module": "order tracking",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 14,
+    "fields": {
+        "module": "Newsletter signup",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 15,
+    "fields": {
+        "module": "live chat",
+        "description": "chat assistance"
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 16,
+    "fields": {
+        "module": "Breadcrumb navigation",
+        "description": "Links of previous page the user navigated through"
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 17,
+    "fields": {
+        "module": "Product filter & sort",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 18,
+    "fields": {
+        "module": "customer review",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 19,
+    "fields": {
+        "module": "return & exchange",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 20,
+    "fields": {
+        "module": "Admin Dashboard",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 21,
+    "fields": {
+        "module": "sales report",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 22,
+    "fields": {
+        "module": "customer management",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 23,
+    "fields": {
+        "module": "store management",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 24,
+    "fields": {
+        "module": "order/shipping management",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 25,
+    "fields": {
+        "module": "SEO management",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 26,
+    "fields": {
+        "module": "Discount & Promotion management",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 27,
+    "fields": {
+        "module": "Payment",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 28,
+    "fields": {
+        "module": "Deployment",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 29,
+    "fields": {
+        "module": "File storage",
+        "description": "images, videos etc"
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 30,
+    "fields": {
+        "module": "UI/UX",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 31,
+    "fields": {
+        "module": "Quiz",
+        "description": "Quiz in LMS"
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 32,
+    "fields": {
+        "module": "course review",
+        "description": "LMS"
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 33,
+    "fields": {
+        "module": "Student Dashboard",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 34,
+    "fields": {
+        "module": "Teacher Dashboard",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 35,
+    "fields": {
+        "module": "Certificate",
+        "description": "certificate system in LMS"
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 36,
+    "fields": {
+        "module": "Customer Account",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 37,
+    "fields": {
+        "module": "Online Video Meeting",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 38,
+    "fields": {
+        "module": "API",
+        "description": "Rest APIs"
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 39,
+    "fields": {
+        "module": "Docker",
+        "description": "docker virtualization container"
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 40,
+    "fields": {
+        "module": "Kubernetes",
+        "description": "Automating deployment, scaling, and management of containerized applications"
+    }
+},
+{
+    "model": "webapp.modules",
+    "pk": 41,
+    "fields": {
+        "module": "QA",
+        "description": "Quality assurance"
+    }
+},
+{
+    "model": "webapp.projecttemplate",
+    "pk": 1,
+    "fields": {
+        "template": "Fitness App",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.projecttemplate",
+    "pk": 2,
+    "fields": {
+        "template": "Crypto Currency",
+        "description": "Crypto Currency"
+    }
+},
+{
+    "model": "webapp.projecttemplate",
+    "pk": 3,
+    "fields": {
+        "template": "Riding App",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.projecttemplate",
+    "pk": 4,
+    "fields": {
+        "template": "Social App",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.projecttemplate",
+    "pk": 5,
+    "fields": {
+        "template": "Food Application",
+        "description": ""
+    }
+},
+{
+    "model": "webapp.projecttemplatemodules",
+    "pk": 1,
+    "fields": {
+        "template": 2,
+        "module": [
+            1,
+            3,
+            5,
+            6,
+            9,
+            11,
+            14,
+            15,
+            17,
+            20,
+            21,
+            22,
+            25,
+            27,
+            28,
+            29,
+            30,
+            36,
+            38,
+            39,
+            40,
+            41
+        ],
+        "platform": [
+            2
+        ]
+    }
+},
+{
+    "model": "webapp.projecttemplatemodules",
+    "pk": 2,
+    "fields": {
+        "template": 1,
+        "module": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            14,
+            15,
+            16,
+            18,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            36,
+            37,
+            38,
+            41
+        ],
+        "platform": [
+            1,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "webapp.projecttemplatemodules",
+    "pk": 3,
+    "fields": {
+        "template": 3,
+        "module": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            9,
+            10,
+            11,
+            13,
+            14,
+            15,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            36,
+            38,
+            39,
+            40,
+            41
+        ],
+        "platform": [
+            1,
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "webapp.projecttemplatemodules",
+    "pk": 4,
+    "fields": {
+        "template": 4,
+        "module": [
+            1,
+            2,
+            3,
+            5,
+            11,
+            14,
+            15,
+            25,
+            27,
+            28,
+            29,
+            30,
+            37,
+            38,
+            41
+        ],
+        "platform": [
+            1
+        ]
+    }
+},
+{
+    "model": "webapp.projecttemplatemodules",
+    "pk": 5,
+    "fields": {
+        "template": 5,
+        "module": [
+            1,
+            2,
+            3,
+            6,
+            7,
+            10,
+            16,
+            26,
+            27,
+            28,
+            29,
+            30,
+            41
+        ],
+        "platform": [
+            1,
+            3
+        ]
+    }
+},
+{
+    "model": "webapp.designation",
+    "pk": 1,
+    "fields": {
+        "designation": "DevOps Engineer"
+    }
+},
+{
+    "model": "webapp.designation",
+    "pk": 2,
+    "fields": {
+        "designation": "MERN Stack Developer"
+    }
+},
+{
+    "model": "webapp.designation",
+    "pk": 3,
+    "fields": {
+        "designation": "SQA"
+    }
+},
+{
+    "model": "webapp.designation",
+    "pk": 4,
+    "fields": {
+        "designation": "SEO Expert"
+    }
+},
+{
+    "model": "webapp.designation",
+    "pk": 5,
+    "fields": {
+        "designation": "Designer"
+    }
+},
+{
+    "model": "webapp.designation",
+    "pk": 6,
+    "fields": {
+        "designation": "IOS Developer"
+    }
+},
+{
+    "model": "webapp.designation",
+    "pk": 7,
+    "fields": {
+        "designation": "Android Developer"
+    }
+},
+{
+    "model": "webapp.designation",
+    "pk": 8,
+    "fields": {
+        "designation": "Fullstack Developer"
+    }
+},
+{
+    "model": "webapp.designation",
+    "pk": 9,
+    "fields": {
+        "designation": "System Engineer"
+    }
+},
+{
+    "model": "webapp.designation",
+    "pk": 10,
+    "fields": {
+        "designation": "Sr IOS Developer"
+    }
+},
+{
+    "model": "webapp.designation",
+    "pk": 11,
+    "fields": {
+        "designation": "Flutter Developer"
+    }
+},
+{
+    "model": "webapp.designation",
+    "pk": 12,
+    "fields": {
+        "designation": "Ionic Developer"
+    }
+},
+{
+    "model": "webapp.designation",
+    "pk": 13,
+    "fields": {
+        "designation": "React Native Developer"
+    }
+},
+{
+    "model": "webapp.employeemodules",
+    "pk": 1,
+    "fields": {
+        "designation": 1,
+        "module": [
+            28,
+            29,
+            38,
+            39,
+            40
+        ],
+        "platform": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "webapp.employeemodules",
+    "pk": 2,
+    "fields": {
+        "designation": 3,
+        "module": [
+            41
+        ],
+        "platform": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "webapp.employeemodules",
+    "pk": 3,
+    "fields": {
+        "designation": 5,
+        "module": [
+            30
+        ],
+        "platform": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "webapp.employeemodules",
+    "pk": 4,
+    "fields": {
+        "designation": 7,
+        "module": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            16,
+            28,
+            29
+        ],
+        "platform": [
+            1
+        ]
+    }
+},
+{
+    "model": "webapp.employeemodules",
+    "pk": 5,
+    "fields": {
+        "designation": 6,
+        "module": [
+            1,
+            2,
+            3,
+            6,
+            10,
+            16,
+            27,
+            28,
+            29
+        ],
+        "platform": [
+            3
+        ]
+    }
+},
+{
+    "model": "webapp.employeemodules",
+    "pk": 6,
+    "fields": {
+        "designation": 8,
+        "module": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            26,
+            27,
+            28,
+            29,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+        ],
+        "platform": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "webapp.employeemodules",
+    "pk": 7,
+    "fields": {
+        "designation": 10,
+        "module": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            26,
+            27,
+            28,
+            29,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+        ],
+        "platform": [
+            3
+        ]
+    }
+},
+{
+    "model": "webapp.employeemodules",
+    "pk": 8,
+    "fields": {
+        "designation": 11,
+        "module": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            26,
+            27,
+            28,
+            29,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+        ],
+        "platform": [
+            5
+        ]
+    }
+},
+{
+    "model": "webapp.employeemodules",
+    "pk": 9,
+    "fields": {
+        "designation": 12,
+        "module": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            26,
+            27,
+            28,
+            29,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+        ],
+        "platform": [
+            6
+        ]
+    }
+},
+{
+    "model": "webapp.employeemodules",
+    "pk": 10,
+    "fields": {
+        "designation": 13,
+        "module": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            26,
+            27,
+            28,
+            29,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+        ],
+        "platform": [
+            4
+        ]
+    }
+},
+{
+    "model": "webapp.employeemodules",
+    "pk": 11,
+    "fields": {
+        "designation": 2,
+        "module": [
+            21,
+            24,
+            26,
+            27,
+            28,
+            29,
+            38
+        ],
+        "platform": [
+            1,
+            2,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "webapp.employeemodules",
+    "pk": 12,
+    "fields": {
+        "designation": 4,
+        "module": [
+            25,
+            26
+        ],
+        "platform": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 1,
+    "fields": {
+        "time": 5.0,
+        "designation": 8,
+        "module": 1
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 3,
+    "fields": {
+        "time": 5.5,
+        "designation": 6,
+        "module": 1
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 5,
+    "fields": {
+        "time": 3.0,
+        "designation": 8,
+        "module": 2
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 6,
+    "fields": {
+        "time": 1.0,
+        "designation": 8,
+        "module": 3
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 7,
+    "fields": {
+        "time": 2.0,
+        "designation": 8,
+        "module": 6
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 8,
+    "fields": {
+        "time": 4.0,
+        "designation": 8,
+        "module": 7
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 9,
+    "fields": {
+        "time": 3.0,
+        "designation": 8,
+        "module": 10
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 10,
+    "fields": {
+        "time": 2.0,
+        "designation": 8,
+        "module": 26
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 11,
+    "fields": {
+        "time": 3.0,
+        "designation": 8,
+        "module": 27
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 12,
+    "fields": {
+        "time": 4.0,
+        "designation": 7,
+        "module": 1
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 13,
+    "fields": {
+        "time": 3.0,
+        "designation": 7,
+        "module": 3
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 14,
+    "fields": {
+        "time": 3.0,
+        "designation": 7,
+        "module": 6
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 15,
+    "fields": {
+        "time": 3.0,
+        "designation": 7,
+        "module": 10
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 16,
+    "fields": {
+        "time": 2.0,
+        "designation": 7,
+        "module": 16
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 17,
+    "fields": {
+        "time": 4.0,
+        "designation": 7,
+        "module": 28
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 18,
+    "fields": {
+        "time": 3.0,
+        "designation": 8,
+        "module": 29
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 19,
+    "fields": {
+        "time": 12.0,
+        "designation": 3,
+        "module": 41
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 20,
+    "fields": {
+        "time": 18.0,
+        "designation": 5,
+        "module": 30
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 21,
+    "fields": {
+        "time": 3.0,
+        "designation": 6,
+        "module": 2
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 22,
+    "fields": {
+        "time": 4.0,
+        "designation": 6,
+        "module": 3
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 23,
+    "fields": {
+        "time": 4.0,
+        "designation": 6,
+        "module": 6
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 24,
+    "fields": {
+        "time": 5.0,
+        "designation": 10,
+        "module": 7
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 25,
+    "fields": {
+        "time": 4.0,
+        "designation": 6,
+        "module": 10
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 26,
+    "fields": {
+        "time": 2.0,
+        "designation": 10,
+        "module": 10
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 27,
+    "fields": {
+        "time": 5.0,
+        "designation": 6,
+        "module": 16
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 28,
+    "fields": {
+        "time": 3.0,
+        "designation": 10,
+        "module": 16
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 29,
+    "fields": {
+        "time": 3.0,
+        "designation": 10,
+        "module": 26
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 30,
+    "fields": {
+        "time": 3.0,
+        "designation": 10,
+        "module": 27
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 31,
+    "fields": {
+        "time": 5.0,
+        "designation": 6,
+        "module": 27
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 32,
+    "fields": {
+        "time": 2.0,
+        "designation": 10,
+        "module": 28
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 33,
+    "fields": {
+        "time": 4.0,
+        "designation": 6,
+        "module": 28
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 34,
+    "fields": {
+        "time": 4.0,
+        "designation": 6,
+        "module": 29
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 35,
+    "fields": {
+        "time": 4.0,
+        "designation": 8,
+        "module": 28
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 36,
+    "fields": {
+        "time": 4.0,
+        "designation": 7,
+        "module": 29
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 37,
+    "fields": {
+        "time": 1.0,
+        "designation": 10,
+        "module": 1
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 38,
+    "fields": {
+        "time": 2.0,
+        "designation": 10,
+        "module": 2
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 39,
+    "fields": {
+        "time": 2.0,
+        "designation": 10,
+        "module": 3
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 40,
+    "fields": {
+        "time": 3.0,
+        "designation": 7,
+        "module": 5
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 41,
+    "fields": {
+        "time": 2.0,
+        "designation": 7,
+        "module": 11
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 42,
+    "fields": {
+        "time": 3.0,
+        "designation": 7,
+        "module": 2
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 43,
+    "fields": {
+        "time": 2.0,
+        "designation": 11,
+        "module": 1
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 44,
+    "fields": {
+        "time": 3.0,
+        "designation": 11,
+        "module": 2
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 45,
+    "fields": {
+        "time": 2.0,
+        "designation": 11,
+        "module": 3
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 46,
+    "fields": {
+        "time": 3.0,
+        "designation": 11,
+        "module": 4
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 47,
+    "fields": {
+        "time": 4.0,
+        "designation": 11,
+        "module": 5
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 48,
+    "fields": {
+        "time": 3.0,
+        "designation": 11,
+        "module": 6
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 49,
+    "fields": {
+        "time": 4.0,
+        "designation": 11,
+        "module": 7
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 50,
+    "fields": {
+        "time": 5.0,
+        "designation": 11,
+        "module": 8
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 51,
+    "fields": {
+        "time": 2.0,
+        "designation": 11,
+        "module": 9
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 52,
+    "fields": {
+        "time": 3.0,
+        "designation": 11,
+        "module": 10
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 53,
+    "fields": {
+        "time": 2.0,
+        "designation": 11,
+        "module": 11
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 54,
+    "fields": {
+        "time": 6.0,
+        "designation": 11,
+        "module": 12
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 55,
+    "fields": {
+        "time": 3.0,
+        "designation": 11,
+        "module": 13
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 56,
+    "fields": {
+        "time": 1.0,
+        "designation": 11,
+        "module": 14
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 57,
+    "fields": {
+        "time": 7.0,
+        "designation": 11,
+        "module": 15
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 58,
+    "fields": {
+        "time": 4.0,
+        "designation": 11,
+        "module": 16
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 59,
+    "fields": {
+        "time": 3.0,
+        "designation": 11,
+        "module": 17
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 60,
+    "fields": {
+        "time": 3.0,
+        "designation": 11,
+        "module": 18
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 61,
+    "fields": {
+        "time": 4.0,
+        "designation": 11,
+        "module": 19
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 62,
+    "fields": {
+        "time": 8.0,
+        "designation": 11,
+        "module": 20
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 63,
+    "fields": {
+        "time": 4.0,
+        "designation": 11,
+        "module": 21
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 64,
+    "fields": {
+        "time": 3.0,
+        "designation": 11,
+        "module": 22
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 65,
+    "fields": {
+        "time": 4.0,
+        "designation": 11,
+        "module": 23
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 66,
+    "fields": {
+        "time": 5.0,
+        "designation": 11,
+        "module": 24
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 68,
+    "fields": {
+        "time": 3.0,
+        "designation": 11,
+        "module": 26
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 69,
+    "fields": {
+        "time": 6.0,
+        "designation": 11,
+        "module": 27
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 70,
+    "fields": {
+        "time": 5.0,
+        "designation": 11,
+        "module": 28
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 71,
+    "fields": {
+        "time": 2.0,
+        "designation": 11,
+        "module": 29
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 72,
+    "fields": {
+        "time": 5.0,
+        "designation": 11,
+        "module": 31
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 73,
+    "fields": {
+        "time": 4.0,
+        "designation": 11,
+        "module": 32
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 74,
+    "fields": {
+        "time": 4.0,
+        "designation": 11,
+        "module": 33
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 75,
+    "fields": {
+        "time": 4.0,
+        "designation": 11,
+        "module": 34
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 76,
+    "fields": {
+        "time": 2.0,
+        "designation": 11,
+        "module": 35
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 77,
+    "fields": {
+        "time": 4.0,
+        "designation": 11,
+        "module": 36
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 78,
+    "fields": {
+        "time": 4.0,
+        "designation": 11,
+        "module": 37
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 79,
+    "fields": {
+        "time": 4.0,
+        "designation": 11,
+        "module": 38
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 81,
+    "fields": {
+        "time": 2.0,
+        "designation": 1,
+        "module": 28
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 82,
+    "fields": {
+        "time": 1.0,
+        "designation": 1,
+        "module": 29
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 83,
+    "fields": {
+        "time": 3.0,
+        "designation": 1,
+        "module": 38
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 84,
+    "fields": {
+        "time": 6.0,
+        "designation": 1,
+        "module": 39
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 85,
+    "fields": {
+        "time": 9.0,
+        "designation": 1,
+        "module": 40
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 86,
+    "fields": {
+        "time": 2.0,
+        "designation": 2,
+        "module": 21
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 87,
+    "fields": {
+        "time": 2.0,
+        "designation": 2,
+        "module": 24
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 88,
+    "fields": {
+        "time": 1.0,
+        "designation": 2,
+        "module": 26
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 89,
+    "fields": {
+        "time": 3.0,
+        "designation": 2,
+        "module": 27
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 90,
+    "fields": {
+        "time": 3.0,
+        "designation": 2,
+        "module": 28
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 91,
+    "fields": {
+        "time": 1.0,
+        "designation": 2,
+        "module": 29
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 92,
+    "fields": {
+        "time": 3.0,
+        "designation": 2,
+        "module": 38
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 93,
+    "fields": {
+        "time": 3.0,
+        "designation": 13,
+        "module": 1
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 94,
+    "fields": {
+        "time": 2.0,
+        "designation": 13,
+        "module": 2
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 95,
+    "fields": {
+        "time": 2.0,
+        "designation": 13,
+        "module": 3
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 96,
+    "fields": {
+        "time": 3.0,
+        "designation": 13,
+        "module": 4
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 97,
+    "fields": {
+        "time": 2.0,
+        "designation": 13,
+        "module": 5
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 98,
+    "fields": {
+        "time": 1.0,
+        "designation": 13,
+        "module": 6
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 99,
+    "fields": {
+        "time": 4.0,
+        "designation": 13,
+        "module": 7
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 100,
+    "fields": {
+        "time": 2.0,
+        "designation": 13,
+        "module": 8
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 101,
+    "fields": {
+        "time": 3.0,
+        "designation": 13,
+        "module": 9
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 102,
+    "fields": {
+        "time": 3.0,
+        "designation": 13,
+        "module": 10
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 103,
+    "fields": {
+        "time": 1.0,
+        "designation": 13,
+        "module": 11
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 104,
+    "fields": {
+        "time": 4.0,
+        "designation": 13,
+        "module": 12
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 105,
+    "fields": {
+        "time": 4.0,
+        "designation": 13,
+        "module": 13
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 106,
+    "fields": {
+        "time": 1.0,
+        "designation": 13,
+        "module": 14
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 107,
+    "fields": {
+        "time": 4.0,
+        "designation": 13,
+        "module": 15
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 108,
+    "fields": {
+        "time": 2.0,
+        "designation": 13,
+        "module": 16
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 109,
+    "fields": {
+        "time": 1.0,
+        "designation": 13,
+        "module": 17
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 110,
+    "fields": {
+        "time": 1.0,
+        "designation": 13,
+        "module": 18
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 111,
+    "fields": {
+        "time": 2.0,
+        "designation": 13,
+        "module": 19
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 112,
+    "fields": {
+        "time": 7.0,
+        "designation": 13,
+        "module": 20
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 113,
+    "fields": {
+        "time": 2.0,
+        "designation": 13,
+        "module": 21
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 114,
+    "fields": {
+        "time": 5.0,
+        "designation": 13,
+        "module": 22
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 115,
+    "fields": {
+        "time": 5.0,
+        "designation": 13,
+        "module": 23
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 116,
+    "fields": {
+        "time": 4.0,
+        "designation": 13,
+        "module": 24
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 117,
+    "fields": {
+        "time": 2.0,
+        "designation": 13,
+        "module": 26
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 118,
+    "fields": {
+        "time": 4.0,
+        "designation": 13,
+        "module": 27
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 119,
+    "fields": {
+        "time": 3.0,
+        "designation": 13,
+        "module": 28
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 120,
+    "fields": {
+        "time": 2.0,
+        "designation": 13,
+        "module": 29
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 121,
+    "fields": {
+        "time": 4.0,
+        "designation": 13,
+        "module": 31
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 122,
+    "fields": {
+        "time": 2.0,
+        "designation": 13,
+        "module": 32
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 123,
+    "fields": {
+        "time": 3.0,
+        "designation": 13,
+        "module": 33
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 124,
+    "fields": {
+        "time": 3.0,
+        "designation": 13,
+        "module": 34
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 125,
+    "fields": {
+        "time": 2.0,
+        "designation": 13,
+        "module": 35
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 126,
+    "fields": {
+        "time": 3.0,
+        "designation": 13,
+        "module": 36
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 127,
+    "fields": {
+        "time": 4.0,
+        "designation": 13,
+        "module": 37
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 128,
+    "fields": {
+        "time": 2.0,
+        "designation": 13,
+        "module": 38
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 129,
+    "fields": {
+        "time": 3.0,
+        "designation": 8,
+        "module": 4
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 130,
+    "fields": {
+        "time": 1.0,
+        "designation": 8,
+        "module": 11
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 131,
+    "fields": {
+        "time": 2.0,
+        "designation": 8,
+        "module": 12
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 132,
+    "fields": {
+        "time": 2.0,
+        "designation": 8,
+        "module": 13
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 133,
+    "fields": {
+        "time": 1.0,
+        "designation": 8,
+        "module": 14
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 134,
+    "fields": {
+        "time": 3.0,
+        "designation": 8,
+        "module": 15
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 135,
+    "fields": {
+        "time": 2.0,
+        "designation": 8,
+        "module": 16
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 136,
+    "fields": {
+        "time": 2.0,
+        "designation": 8,
+        "module": 17
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 137,
+    "fields": {
+        "time": 1.0,
+        "designation": 8,
+        "module": 18
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 138,
+    "fields": {
+        "time": 2.0,
+        "designation": 8,
+        "module": 19
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 139,
+    "fields": {
+        "time": 4.0,
+        "designation": 8,
+        "module": 20
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 140,
+    "fields": {
+        "time": 3.0,
+        "designation": 8,
+        "module": 21
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 141,
+    "fields": {
+        "time": 3.0,
+        "designation": 8,
+        "module": 22
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 142,
+    "fields": {
+        "time": 4.0,
+        "designation": 8,
+        "module": 23
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 143,
+    "fields": {
+        "time": 3.0,
+        "designation": 8,
+        "module": 24
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 144,
+    "fields": {
+        "time": 3.0,
+        "designation": 8,
+        "module": 31
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 145,
+    "fields": {
+        "time": 1.0,
+        "designation": 8,
+        "module": 32
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 146,
+    "fields": {
+        "time": 5.0,
+        "designation": 8,
+        "module": 33
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 147,
+    "fields": {
+        "time": 6.0,
+        "designation": 8,
+        "module": 34
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 148,
+    "fields": {
+        "time": 1.0,
+        "designation": 8,
+        "module": 35
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 149,
+    "fields": {
+        "time": 4.0,
+        "designation": 8,
+        "module": 36
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 150,
+    "fields": {
+        "time": 3.0,
+        "designation": 8,
+        "module": 37
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 151,
+    "fields": {
+        "time": 3.0,
+        "designation": 8,
+        "module": 38
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 152,
+    "fields": {
+        "time": 3.0,
+        "designation": 7,
+        "module": 4
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 153,
+    "fields": {
+        "time": 2.0,
+        "designation": 7,
+        "module": 6
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 154,
+    "fields": {
+        "time": 2.0,
+        "designation": 10,
+        "module": 4
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 155,
+    "fields": {
+        "time": 1.0,
+        "designation": 10,
+        "module": 5
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 156,
+    "fields": {
+        "time": 2.0,
+        "designation": 10,
+        "module": 6
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 157,
+    "fields": {
+        "time": 2.0,
+        "designation": 10,
+        "module": 8
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 158,
+    "fields": {
+        "time": 2.0,
+        "designation": 10,
+        "module": 9
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 159,
+    "fields": {
+        "time": 1.0,
+        "designation": 10,
+        "module": 11
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 160,
+    "fields": {
+        "time": 2.0,
+        "designation": 10,
+        "module": 12
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 161,
+    "fields": {
+        "time": 3.0,
+        "designation": 10,
+        "module": 13
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 162,
+    "fields": {
+        "time": 1.0,
+        "designation": 10,
+        "module": 14
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 163,
+    "fields": {
+        "time": 3.0,
+        "designation": 10,
+        "module": 15
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 164,
+    "fields": {
+        "time": 1.0,
+        "designation": 10,
+        "module": 17
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 165,
+    "fields": {
+        "time": 1.0,
+        "designation": 10,
+        "module": 18
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 166,
+    "fields": {
+        "time": 2.0,
+        "designation": 10,
+        "module": 19
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 167,
+    "fields": {
+        "time": 5.0,
+        "designation": 10,
+        "module": 20
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 168,
+    "fields": {
+        "time": 2.0,
+        "designation": 10,
+        "module": 21
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 169,
+    "fields": {
+        "time": 3.0,
+        "designation": 10,
+        "module": 22
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 170,
+    "fields": {
+        "time": 4.0,
+        "designation": 10,
+        "module": 23
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 171,
+    "fields": {
+        "time": 3.0,
+        "designation": 10,
+        "module": 24
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 172,
+    "fields": {
+        "time": 2.0,
+        "designation": 10,
+        "module": 29
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 173,
+    "fields": {
+        "time": 3.0,
+        "designation": 10,
+        "module": 31
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 174,
+    "fields": {
+        "time": 1.0,
+        "designation": 10,
+        "module": 32
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 175,
+    "fields": {
+        "time": 4.0,
+        "designation": 10,
+        "module": 33
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 176,
+    "fields": {
+        "time": 5.0,
+        "designation": 10,
+        "module": 34
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 177,
+    "fields": {
+        "time": 1.0,
+        "designation": 10,
+        "module": 35
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 178,
+    "fields": {
+        "time": 4.0,
+        "designation": 10,
+        "module": 36
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 179,
+    "fields": {
+        "time": 3.0,
+        "designation": 10,
+        "module": 37
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 180,
+    "fields": {
+        "time": 3.0,
+        "designation": 10,
+        "module": 38
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 181,
+    "fields": {
+        "time": 10.0,
+        "designation": 4,
+        "module": 25
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 182,
+    "fields": {
+        "time": 3.0,
+        "designation": 4,
+        "module": 26
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 183,
+    "fields": {
+        "time": 3.0,
+        "designation": 12,
+        "module": 1
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 184,
+    "fields": {
+        "time": 2.0,
+        "designation": 12,
+        "module": 2
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 185,
+    "fields": {
+        "time": 2.0,
+        "designation": 12,
+        "module": 3
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 186,
+    "fields": {
+        "time": 3.0,
+        "designation": 12,
+        "module": 4
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 187,
+    "fields": {
+        "time": 2.0,
+        "designation": 12,
+        "module": 5
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 188,
+    "fields": {
+        "time": 2.0,
+        "designation": 12,
+        "module": 6
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 189,
+    "fields": {
+        "time": 4.0,
+        "designation": 12,
+        "module": 7
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 190,
+    "fields": {
+        "time": 3.0,
+        "designation": 12,
+        "module": 8
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 191,
+    "fields": {
+        "time": 3.0,
+        "designation": 12,
+        "module": 9
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 192,
+    "fields": {
+        "time": 3.0,
+        "designation": 12,
+        "module": 10
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 193,
+    "fields": {
+        "time": 1.0,
+        "designation": 12,
+        "module": 11
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 194,
+    "fields": {
+        "time": 3.0,
+        "designation": 12,
+        "module": 12
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 195,
+    "fields": {
+        "time": 5.0,
+        "designation": 12,
+        "module": 13
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 196,
+    "fields": {
+        "time": 2.0,
+        "designation": 12,
+        "module": 14
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 197,
+    "fields": {
+        "time": 3.0,
+        "designation": 12,
+        "module": 15
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 198,
+    "fields": {
+        "time": 2.0,
+        "designation": 12,
+        "module": 16
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 199,
+    "fields": {
+        "time": 2.0,
+        "designation": 12,
+        "module": 17
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 200,
+    "fields": {
+        "time": 2.0,
+        "designation": 12,
+        "module": 18
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 201,
+    "fields": {
+        "time": 4.0,
+        "designation": 12,
+        "module": 19
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 202,
+    "fields": {
+        "time": 6.0,
+        "designation": 12,
+        "module": 20
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 203,
+    "fields": {
+        "time": 3.0,
+        "designation": 12,
+        "module": 21
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 204,
+    "fields": {
+        "time": 4.0,
+        "designation": 12,
+        "module": 22
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 205,
+    "fields": {
+        "time": 6.0,
+        "designation": 12,
+        "module": 23
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 206,
+    "fields": {
+        "time": 4.0,
+        "designation": 12,
+        "module": 24
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 207,
+    "fields": {
+        "time": 3.0,
+        "designation": 12,
+        "module": 26
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 208,
+    "fields": {
+        "time": 3.0,
+        "designation": 12,
+        "module": 27
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 209,
+    "fields": {
+        "time": 5.0,
+        "designation": 12,
+        "module": 28
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 210,
+    "fields": {
+        "time": 2.0,
+        "designation": 12,
+        "module": 29
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 211,
+    "fields": {
+        "time": 4.0,
+        "designation": 12,
+        "module": 31
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 212,
+    "fields": {
+        "time": 1.0,
+        "designation": 12,
+        "module": 32
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 213,
+    "fields": {
+        "time": 5.0,
+        "designation": 12,
+        "module": 33
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 214,
+    "fields": {
+        "time": 6.0,
+        "designation": 12,
+        "module": 34
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 215,
+    "fields": {
+        "time": 1.0,
+        "designation": 12,
+        "module": 35
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 216,
+    "fields": {
+        "time": 3.0,
+        "designation": 12,
+        "module": 36
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 217,
+    "fields": {
+        "time": 3.0,
+        "designation": 12,
+        "module": 37
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 218,
+    "fields": {
+        "time": 3.0,
+        "designation": 12,
+        "module": 38
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 219,
+    "fields": {
+        "time": 2.0,
+        "designation": 8,
+        "module": 9
+    }
+},
+{
+    "model": "webapp.moduletime",
+    "pk": 220,
+    "fields": {
+        "time": 2.0,
+        "designation": 7,
+        "module": 9
+    }
+},
+{
+    "model": "webapp.region",
+    "pk": 1,
+    "fields": {
+        "name": "North America"
+    }
+},
+{
+    "model": "webapp.region",
+    "pk": 2,
+    "fields": {
+        "name": "North East Asia"
+    }
+},
+{
+    "model": "webapp.region",
+    "pk": 3,
+    "fields": {
+        "name": "Oceania"
+    }
+},
+{
+    "model": "webapp.region",
+    "pk": 4,
+    "fields": {
+        "name": "MENA"
+    }
+},
+{
+    "model": "webapp.region",
+    "pk": 5,
+    "fields": {
+        "name": "Europe & Latin America"
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 1,
+    "fields": {
+        "rate": 50,
+        "region": 1,
+        "designation": 1
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 2,
+    "fields": {
+        "rate": 45,
+        "region": 1,
+        "designation": 2
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 3,
+    "fields": {
+        "rate": 40,
+        "region": 1,
+        "designation": 3
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 4,
+    "fields": {
+        "rate": 46,
+        "region": 1,
+        "designation": 4
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 5,
+    "fields": {
+        "rate": 37,
+        "region": 1,
+        "designation": 5
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 6,
+    "fields": {
+        "rate": 60,
+        "region": 1,
+        "designation": 6
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 7,
+    "fields": {
+        "rate": 48,
+        "region": 1,
+        "designation": 7
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 8,
+    "fields": {
+        "rate": 55,
+        "region": 1,
+        "designation": 8
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 9,
+    "fields": {
+        "rate": 50,
+        "region": 1,
+        "designation": 9
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 10,
+    "fields": {
+        "rate": 75,
+        "region": 1,
+        "designation": 10
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 11,
+    "fields": {
+        "rate": 75,
+        "region": 1,
+        "designation": 11
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 12,
+    "fields": {
+        "rate": 64,
+        "region": 1,
+        "designation": 12
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 13,
+    "fields": {
+        "rate": 67,
+        "region": 1,
+        "designation": 13
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 14,
+    "fields": {
+        "rate": 35,
+        "region": 2,
+        "designation": 1
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 15,
+    "fields": {
+        "rate": 34,
+        "region": 2,
+        "designation": 2
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 16,
+    "fields": {
+        "rate": 39,
+        "region": 2,
+        "designation": 3
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 17,
+    "fields": {
+        "rate": 40,
+        "region": 2,
+        "designation": 4
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 18,
+    "fields": {
+        "rate": 32,
+        "region": 2,
+        "designation": 5
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 19,
+    "fields": {
+        "rate": 43,
+        "region": 2,
+        "designation": 6
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 20,
+    "fields": {
+        "rate": 39,
+        "region": 2,
+        "designation": 7
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 21,
+    "fields": {
+        "rate": 43,
+        "region": 2,
+        "designation": 8
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 22,
+    "fields": {
+        "rate": 39,
+        "region": 2,
+        "designation": 9
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 23,
+    "fields": {
+        "rate": 48,
+        "region": 2,
+        "designation": 10
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 24,
+    "fields": {
+        "rate": 47,
+        "region": 2,
+        "designation": 11
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 25,
+    "fields": {
+        "rate": 46,
+        "region": 2,
+        "designation": 12
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 26,
+    "fields": {
+        "rate": 45,
+        "region": 2,
+        "designation": 13
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 27,
+    "fields": {
+        "rate": 32,
+        "region": 4,
+        "designation": 1
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 28,
+    "fields": {
+        "rate": 29,
+        "region": 4,
+        "designation": 2
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 29,
+    "fields": {
+        "rate": 26,
+        "region": 4,
+        "designation": 3
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 30,
+    "fields": {
+        "rate": 29,
+        "region": 4,
+        "designation": 4
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 31,
+    "fields": {
+        "rate": 27,
+        "region": 4,
+        "designation": 5
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 32,
+    "fields": {
+        "rate": 34,
+        "region": 4,
+        "designation": 6
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 33,
+    "fields": {
+        "rate": 38,
+        "region": 4,
+        "designation": 10
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 34,
+    "fields": {
+        "rate": 31,
+        "region": 4,
+        "designation": 7
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 35,
+    "fields": {
+        "rate": 38,
+        "region": 4,
+        "designation": 8
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 36,
+    "fields": {
+        "rate": 27,
+        "region": 4,
+        "designation": 9
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 37,
+    "fields": {
+        "rate": 38,
+        "region": 4,
+        "designation": 11
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 38,
+    "fields": {
+        "rate": 36,
+        "region": 4,
+        "designation": 12
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 39,
+    "fields": {
+        "rate": 34,
+        "region": 4,
+        "designation": 13
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 40,
+    "fields": {
+        "rate": 31,
+        "region": 3,
+        "designation": 1
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 41,
+    "fields": {
+        "rate": 30,
+        "region": 3,
+        "designation": 2
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 42,
+    "fields": {
+        "rate": 28,
+        "region": 3,
+        "designation": 3
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 43,
+    "fields": {
+        "rate": 29,
+        "region": 3,
+        "designation": 4
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 44,
+    "fields": {
+        "rate": 27,
+        "region": 3,
+        "designation": 5
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 45,
+    "fields": {
+        "rate": 36,
+        "region": 3,
+        "designation": 6
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 46,
+    "fields": {
+        "rate": 34,
+        "region": 3,
+        "designation": 7
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 47,
+    "fields": {
+        "rate": 39,
+        "region": 3,
+        "designation": 8
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 48,
+    "fields": {
+        "rate": 31,
+        "region": 3,
+        "designation": 9
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 49,
+    "fields": {
+        "rate": 42,
+        "region": 3,
+        "designation": 10
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 50,
+    "fields": {
+        "rate": 41,
+        "region": 3,
+        "designation": 11
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 51,
+    "fields": {
+        "rate": 39,
+        "region": 3,
+        "designation": 12
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 52,
+    "fields": {
+        "rate": 36,
+        "region": 3,
+        "designation": 13
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 53,
+    "fields": {
+        "rate": 45,
+        "region": 5,
+        "designation": 1
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 54,
+    "fields": {
+        "rate": 42,
+        "region": 5,
+        "designation": 2
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 55,
+    "fields": {
+        "rate": 39,
+        "region": 5,
+        "designation": 3
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 56,
+    "fields": {
+        "rate": 43,
+        "region": 5,
+        "designation": 4
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 57,
+    "fields": {
+        "rate": 38,
+        "region": 5,
+        "designation": 5
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 58,
+    "fields": {
+        "rate": 51,
+        "region": 5,
+        "designation": 6
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 59,
+    "fields": {
+        "rate": 49,
+        "region": 5,
+        "designation": 7
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 60,
+    "fields": {
+        "rate": 51,
+        "region": 5,
+        "designation": 8
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 61,
+    "fields": {
+        "rate": 44,
+        "region": 5,
+        "designation": 9
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 62,
+    "fields": {
+        "rate": 60,
+        "region": 5,
+        "designation": 10
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 63,
+    "fields": {
+        "rate": 58,
+        "region": 5,
+        "designation": 11
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 64,
+    "fields": {
+        "rate": 56,
+        "region": 5,
+        "designation": 12
+    }
+},
+{
+    "model": "webapp.userhourlyrate",
+    "pk": 65,
+    "fields": {
+        "rate": 52,
+        "region": 5,
+        "designation": 13
+    }
+},
+{
+    "model": "webapp.platform",
+    "pk": 1,
+    "fields": {
+        "platform": "ANDROID",
+        "description": null
+    }
+},
+{
+    "model": "webapp.platform",
+    "pk": 2,
+    "fields": {
+        "platform": "WEB",
+        "description": null
+    }
+},
+{
+    "model": "webapp.platform",
+    "pk": 3,
+    "fields": {
+        "platform": "IOS",
+        "description": null
+    }
+},
+{
+    "model": "webapp.platform",
+    "pk": 4,
+    "fields": {
+        "platform": "REACT_NATIVE",
+        "description": null
+    }
+},
+{
+    "model": "webapp.platform",
+    "pk": 5,
+    "fields": {
+        "platform": "FLUTTER",
+        "description": null
+    }
+},
+{
+    "model": "webapp.platform",
+    "pk": 6,
+    "fields": {
+        "platform": "IONIC",
+        "description": null
+    }
+},
+{
+    "model": "webapp.platformmodules",
+    "pk": 1,
+    "fields": {
+        "platform": 1,
+        "module": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+        ]
+    }
+},
+{
+    "model": "webapp.platformmodules",
+    "pk": 2,
+    "fields": {
+        "platform": 2,
+        "module": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+        ]
+    }
+},
+{
+    "model": "webapp.platformmodules",
+    "pk": 3,
+    "fields": {
+        "platform": 3,
+        "module": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+        ]
+    }
+},
+{
+    "model": "webapp.platformmodules",
+    "pk": 4,
+    "fields": {
+        "platform": 4,
+        "module": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+        ]
+    }
+},
+{
+    "model": "webapp.platformmodules",
+    "pk": 5,
+    "fields": {
+        "platform": 5,
+        "module": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+        ]
+    }
+},
+{
+    "model": "webapp.platformmodules",
+    "pk": 6,
+    "fields": {
+        "platform": 6,
+        "module": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+        ]
+    }
+}
+]
