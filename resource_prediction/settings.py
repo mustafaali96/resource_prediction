@@ -25,7 +25,7 @@ SECRET_KEY = 'p!h2q4o*o1=gn^imf-ln797u9sf#4njn@n$w&^1ba86amw6wtb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'muhmsida.pythonanywhere.com', 'mustafaali.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'resource-prediction.herokuapp.com', 'mustafaali.pythonanywhere.com']
 
 AUTH_USER_MODEL = 'webapp.User'
 
