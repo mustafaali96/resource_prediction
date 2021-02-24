@@ -1,0 +1,2 @@
+release: python manage.py migrate
+web: gunicorn resource_prediction.wsgi --log-file -
