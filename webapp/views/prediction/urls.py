@@ -3,5 +3,5 @@ from django.urls import path, include
 from webapp.views.prediction import views
 
 urlpatterns = [
-    path("post/", views.GetPredictionAPIListView.as_view())
+    path("post/", views.PostPredictionAPIListView.as_view())
 ]

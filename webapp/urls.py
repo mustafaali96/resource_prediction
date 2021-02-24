@@ -7,4 +7,5 @@ urlpatterns = [
     path("platform/", include("webapp.views.platform.urls")),
     path("region/", include("webapp.views.region.urls")),  
     path("prediction/", include("webapp.views.prediction.urls")),
+    path("training/", include("webapp.views.training.urls")),
 ]
