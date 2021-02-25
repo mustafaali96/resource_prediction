@@ -9,7 +9,7 @@ def predict(requirements):
     prediction_model = {}
     for platform in requirements.keys():
         model_name = platform + '.sav'
-        path = os.path.join(settings.BASE_DIR, 'models', model_name)
+        path = os.path.join(settings.BASE_DIR, 'models/rfcs', model_name)
         loaded_model = pickle.load(open(path, 'rb'))
         feature_list[platform] = loaded_model.feature_names
         prediction_model[platform] = loaded_model
