@@ -54,10 +54,10 @@ def predict(requirements):
             group[Predicted_Designation[0]] = Designation_modules_required
         designation_group[platform] = group
 
-    # for platform, group in designation_group.items():
-    #     print("\n\tPlatform:", platform)
-    #     for designation, modules in group.items():
-    #         print(designation,modules)
-    #     print("\n")
+    for platform, group in designation_group.items():
+        print("\n\tPlatform:", platform)
+        for designation, modules in group.items():
+            print(designation,modules)
+        print("\n")
     
     return designation_group
