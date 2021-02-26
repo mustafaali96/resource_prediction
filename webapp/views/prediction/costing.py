@@ -41,7 +41,7 @@ def ProjectCost(designation_group, Region):
                         WHERE Designation = :designation AND Region = :region;'''
             user_rate = pd.read_sql_query(query, connection, params={'designation': designation, 'region':Region})
             rate = user_rate.User_rate.values[0] * time
-            print(designation,"required",designation_time[designation], "hrs and cost will be:", rate)
+            print(designation,"required",designation_time[designation], "hrs and cost will be:", rate, "$")
             platform_cost += int(rate)
             platform_time += time
         total_project_cost += platform_cost
