@@ -1,5 +1,7 @@
 from rest_framework.generics import ListAPIView
 from rest_framework.views import APIView
+from rest_framework.mixins import UpdateModelMixin
+from rest_framework import viewsets
 from rest_framework.response import Response
 from rest_framework import status as st
 
@@ -19,3 +21,7 @@ class GetAllModulesByTemplateAPIView(APIView):
         serializer = ProjectTemplateModulesSerializer(instance=instances)
 
         return Response(data=serializer.data, status=st.HTTP_200_OK)
+
+class UpdateModuleView(viewsets.GenericViewSet, UpdateModelMixin):
+    queryset = models.Modules.objects.all()
+    serializer_class = ModulesSerializer

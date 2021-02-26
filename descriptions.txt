@@ -10,6 +10,14 @@ RESPONSE: Complete Modules objects list
 
 ============================================================================= 
 
+ENDPOINT: /modules/update/{module_id}/
+METHOD: patch
+REQUIRED VALUES:
+    time:4
+RESPONSE: Update Modules objects
+
+============================================================================= 
+
 ENDPOINT: /modules/byTemplate/{template_id}/
 METHOD: get
 RESPONSE: Complete objects list
