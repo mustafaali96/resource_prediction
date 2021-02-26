@@ -21,8 +21,11 @@ class User(AbstractUser):
 
 
 class Modules(models.Model):
-    module = models.CharField(max_length=50, unique=True)
-    description = models.CharField(max_length=255, null=True, blank=True)
+    module = models.CharField(max_length=50, 
+                                unique=True)
+    time = models.FloatField()
+    description = models.CharField(max_length=255, 
+                                    null=True, blank=True)
 
     def __str__(self):
         return self.module
