@@ -29,6 +29,7 @@ def ProjectCost(designation_group, Region):
         designation_time = stack["Time"]
         platform_cost = 0
         platform_time = 0
+        designation_rate = {}
         for designation, time in designation_time.items():
             query = '''SELECT
                             webapp_designation.designation AS Designation,
@@ -44,10 +45,13 @@ def ProjectCost(designation_group, Region):
             print(designation,"required",designation_time[designation], "hrs and cost will be:", rate, "$")
             platform_cost += int(rate)
             platform_time += time
+            designation_rate[designation] = rate
+        designation_group[platform]["Designation Cost"] = designation_rate
         total_project_cost += platform_cost
         print("\nTotal time required for",platform, "is", platform_time)
         print("Total cost for",platform, "is", platform_cost)
-        designation_group[platform]['Cost'] = platform_cost
+        designation_group[platform]['Platform Cost'] = platform_cost
+    designation_group["Total Project Cost"] = total_project_cost
     print("\nTotal Project Cost is:",total_project_cost)
 
     return designation_group
