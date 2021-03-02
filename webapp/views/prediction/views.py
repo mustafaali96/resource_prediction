@@ -13,7 +13,9 @@ class PostPredictionAPIListView(ListAPIView):
             requirements[platform] = modules
         designation_group = predict(requirements)
 
-        designation_group_time_cost = ProjectCost(designation_group, region[0])
+        designation_group_time_cost = {}
+        for model in designation_group.keys():
+            designation_group_time_cost[model] = ProjectCost(designation_group[model], region[0])
 
         return Response(
             {

@@ -25,7 +25,7 @@ def ProjectCost(designation_group, Region):
         
     total_project_cost = 0
     for platform, stack in designation_group.items():
-        print("\n\t****", platform, "****\n")
+        # print("\n\t****", platform, "****\n")
         designation_time = stack["Time"]
         platform_cost = 0
         platform_time = 0
@@ -42,16 +42,16 @@ def ProjectCost(designation_group, Region):
                         WHERE Designation = :designation AND Region = :region;'''
             user_rate = pd.read_sql_query(query, connection, params={'designation': designation, 'region':Region})
             rate = user_rate.User_rate.values[0] * time
-            print(designation,"required",designation_time[designation], "hrs and cost will be:", rate, "$")
+            # print(designation,"required",designation_time[designation], "hrs and cost will be:", rate, "$")
             platform_cost += int(rate)
             platform_time += time
             designation_rate[designation] = rate
         designation_group[platform]["Designation Cost"] = designation_rate
         total_project_cost += platform_cost
-        print("\nTotal time required for",platform, "is", platform_time)
-        print("Total cost for",platform, "is", platform_cost)
+        # print("\nTotal time required for",platform, "is", platform_time)
+        # print("Total cost for",platform, "is", platform_cost)
         designation_group[platform]['Platform Cost'] = platform_cost
     designation_group["Total Project Cost"] = total_project_cost
-    print("\nTotal Project Cost is:",total_project_cost)
+    # print("\nTotal Project Cost is:",total_project_cost)
 
     return designation_group
