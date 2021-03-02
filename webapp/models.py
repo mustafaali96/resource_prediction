@@ -151,41 +151,28 @@ class PlatformModules(models.Model):
         return self.displayname
 
 
-# class Project(models.Model):
-    # # Priority choices values
-    # LOW = 1
-    # MEDIUM = 2
-    # HIGH = 3
-    # CRITICAL = 4
+class Project(models.Model):
 
-    # PRIORITY_CHOICES = {
-    #     (LOW, 'Low'),
-    #     (MEDIUM, 'Medium'),
-    #     (HIGH, 'High'),
-    #     (CRITICAL, 'Critical')
-    # }
+    name = models.CharField(max_length=100,
+                            null=False, blank=False)
+    cost = models.IntegerField(null=False, blank=False)
+    assigned_designation = models.ManyToManyField('Designation',
+                            null=True, blank=True, 
+                            related_name='assigned_designation')
+    start_date = models.DateField()
+    end_date = models.DateField()
+    template = models.ForeignKey('ProjectTemplate',
+                                on_delete=models.CASCADE)
+    modules = models.ManyToManyField('Modules', 
+                                related_name='Project_modules')
+    platform = models.ManyToManyField('Platform',
+        blank=False, related_name='Project_platform')
+    region = models.ForeignKey("Region",
+        on_delete=models.CASCADE, null=True)
 
-    # name = models.CharField(max_length=100,
-    #     null=False, blank=False)
-    # cost = models.IntegerField(null=False, blank=False)
-    # assigned_employees = models.ManyToManyField('User',
-    #     null=True, blank=True, related_name='Project_assigned_employees')
-    # start_date = models.DateField()
-    # end_date = models.DateField()
-    # priority = models.SmallIntegerField(
-    #     choices= PRIORITY_CHOICES, default=2)
-    # # template = models.ForeignKey('ProjectTemplate',
-    #     # on_delete=models.CASCADE)
-    # module = models.ManyToManyField('Modules',
-    #     null=True, blank=True, related_name='Project_module')
-    # platform = models.ManyToManyField('Platform',
-    #     blank=False, related_name='Project_platform')
-    # region = models.ForeignKey("Region",
-    #     on_delete=models.CASCADE, null=True)
+    @property
+    def displayname(self):
+        return f'{self.name} | {self.start_date}'
 
-    # @property
-    # def displayname(self):
-    #     return f'{self.name} | {self.start_date}'
-
-    # def __str__(self):
-    #     return self.displayname
+    def __str__(self):
+        return self.displayname
