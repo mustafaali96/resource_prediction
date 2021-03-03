@@ -7,7 +7,7 @@ class PostPredictionAPIListView(ListAPIView):
     def post(self, request, format=None):
         platforms = request.POST.getlist("platforms", [])
         modules = request.POST.getlist("modules", [])
-        region = request.POST.getlist('region', [])
+        region = request.POST.get('region')
         requirements = {}
         for platform in platforms:
             requirements[platform] = modules
@@ -15,7 +15,7 @@ class PostPredictionAPIListView(ListAPIView):
 
         designation_group_time_cost = {}
         for model in designation_group.keys():
-            designation_group_time_cost[model] = ProjectCost(designation_group[model], region[0])
+            designation_group_time_cost[model] = ProjectCost(designation_group[model], region)
 
         return Response(
             {

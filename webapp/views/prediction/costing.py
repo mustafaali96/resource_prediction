@@ -3,6 +3,8 @@ import os
 from django.db import connection
 
 def ProjectCost(designation_group, Region):
+    project_time = 0
+    total_project_cost = 0
     for platform, group in designation_group.items():
         group_hours = {}
         for designation, modules in group.items():
@@ -17,11 +19,10 @@ def ProjectCost(designation_group, Region):
                 module_time_df = pd.read_sql_query(query, connection, params={'module': module})
                 platform_designation_time = module_time_df['module_time'].values
                 designation_time += platform_designation_time[0]
-
+            project_time += designation_time
             group_hours[designation] = designation_time
         designation_group[platform]['Time'] = group_hours
         
-    total_project_cost = 0
     for platform, stack in designation_group.items():
         # print("\n\t****", platform, "****\n")
         designation_time = stack["Time"]
@@ -49,6 +50,8 @@ def ProjectCost(designation_group, Region):
         # print("\nTotal time required for",platform, "is", platform_time)
         # print("Total cost for",platform, "is", platform_cost)
         designation_group[platform]['Platform Cost'] = platform_cost
+
+    designation_group["Total Project Time"] = project_time
     designation_group["Total Project Cost"] = total_project_cost
     # print("\nTotal Project Cost is:",total_project_cost)
 
