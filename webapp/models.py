@@ -152,21 +152,13 @@ class PlatformModules(models.Model):
 
 
 class Project(models.Model):
-
     name = models.CharField(max_length=100,
                             null=False, blank=False)
     cost = models.IntegerField(null=False, blank=False)
-    assigned_designation = models.ManyToManyField('Designation',
-                            null=True, blank=True, 
-                            related_name='assigned_designation')
     start_date = models.DateField()
     end_date = models.DateField()
     template = models.ForeignKey('ProjectTemplate',
                                 on_delete=models.CASCADE)
-    modules = models.ManyToManyField('Modules', 
-                                related_name='Project_modules')
-    platform = models.ManyToManyField('Platform',
-        blank=False, related_name='Project_platform')
     region = models.ForeignKey("Region",
         on_delete=models.CASCADE, null=True)
 

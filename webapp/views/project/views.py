@@ -12,8 +12,14 @@ class PostProjectAPIListView(ListAPIView):
         platforms = request.POST.getlist("platforms", [])
         region = request.POST.get('region')
 
+        project = {"Project Name": project_name, "Project Cost": project_cost,
+                    "Template":template, "Project Platforms":platforms, 
+                    "Region":region, "Project Time":duration, 
+                    "Designations":predicted_designations, "Project Modules":modules}
+
         return Response(
             {
-                'result': "Your Project has been recorded"
+                'result': "Your Project has been recorded",
+                'Project Details': project
             }
         )
