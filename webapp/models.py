@@ -168,3 +168,20 @@ class Project(models.Model):
 
     def __str__(self):
         return self.displayname
+
+class Prediction(models.Model):
+    project = models.ForeignKey("Project", on_delete=models.CASCADE)    
+    platform = models.ForeignKey('Platform',
+                            on_delete=models.CASCADE)
+    designation = models.ForeignKey('Designation',
+                            on_delete=models.CASCADE)
+    modules = models.ManyToManyField('Modules', 
+                                related_name='Project_modules')
+    cost = models.IntegerField(null=False, blank=False)
+
+    @property
+    def displayname(self):
+        return f'{self.project.name} | {self.platform}'
+
+    def __str__(self):
+        return self.displayname
