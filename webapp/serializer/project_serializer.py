@@ -5,4 +5,4 @@ from webapp import models
 class ProjectSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Project
-        fields = '__all__'
+        exclude = ('start_date',)

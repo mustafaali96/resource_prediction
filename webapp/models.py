@@ -155,7 +155,7 @@ class Project(models.Model):
     name = models.CharField(max_length=100,
                             null=False, blank=False)
     cost = models.IntegerField(null=False, blank=False)
-    start_date = models.DateField()
+    start_date = models.DateTimeField(auto_now_add=True)
     end_date = models.DateField()
     template = models.ForeignKey('ProjectTemplate',
                                 on_delete=models.CASCADE)
