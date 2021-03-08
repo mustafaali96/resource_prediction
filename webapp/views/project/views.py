@@ -1,25 +1,11 @@
-from rest_framework.generics import ListAPIView
-from rest_framework.response import Response
+from rest_framework import viewsets, mixins
+from webapp.serializer.project_serializer import ProjectSerializer, PredictionSerializer
+from webapp import models
 
-class PostProjectAPIListView(ListAPIView):
-    def post(self, request, format=None):
-        project_name = request.POST.get('project_name')
-        project_cost = request.POST.get("project_cost")
-        predicted_designations = request.POST.getlist("designations", [])
-        duration = request.POST.get("duration")
-        template = request.POST.get("template")
-        modules = request.POST.getlist("modules", [])
-        platforms = request.POST.getlist("platforms", [])
-        region = request.POST.get('region')
+class CreateProjectViewSet(viewsets.GenericViewSet, mixins.CreateModelMixin):
+    serializer_class = ProjectSerializer
+    queryset = models.Project.objects.all()
 
-        project = {"Project Name": project_name, "Project Cost": project_cost,
-                    "Template":template, "Project Platforms":platforms, 
-                    "Region":region, "Project Time":duration, 
-                    "Designations":predicted_designations, "Project Modules":modules}
-
-        return Response(
-            {
-                'result': "Your Project has been recorded",
-                'Project Details': project
-            }
-        )
+class CreateProjectPrediction(viewsets.GenericViewSet, mixins.CreateModelMixin):
+    serializer_class = PredictionSerializer
+    queryset = models.Prediction.objects.all()

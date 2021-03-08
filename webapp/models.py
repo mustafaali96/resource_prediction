@@ -154,13 +154,13 @@ class PlatformModules(models.Model):
 class Project(models.Model):
     name = models.CharField(max_length=100,
                             null=False, blank=False)
-    cost = models.IntegerField(null=False, blank=False)
+    cost = models.BigIntegerField(null=False, blank=False)
     start_date = models.DateTimeField(auto_now_add=True)
     end_date = models.DateField()
     template = models.ForeignKey('ProjectTemplate',
                                 on_delete=models.CASCADE)
     region = models.ForeignKey("Region",
-        on_delete=models.CASCADE, null=True)
+        on_delete=models.CASCADE)
 
     @property
     def displayname(self):
@@ -177,7 +177,8 @@ class Prediction(models.Model):
                             on_delete=models.CASCADE)
     modules = models.ManyToManyField('Modules', 
                                 related_name='Project_modules')
-    cost = models.IntegerField(null=False, blank=False)
+    cost = models.BigIntegerField(null=False, blank=False)
+    created_at = models.DateTimeField(auto_now_add=True)
 
     @property
     def displayname(self):

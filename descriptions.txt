@@ -55,6 +55,31 @@ RESPONSE: Predicted Designation list for each Platforms
 
 ============================================================================= 
 
+ENDPOINT: /project/post/
+METHOD: POST
+Required values:
+    region:2
+    name:{project name}
+    cost:2300
+    template:3
+    end_date:2021-12-20
+RESPONSE: Project details
+
+============================================================================= 
+
+ENDPOINT: /project/prediction/post/
+METHOD: POST
+Required values:
+    project:{Project id}
+    cost:29
+    platform:2
+    designation:2
+    modules:6
+    modules:7
+RESPONSE: Project Platform Designation detail
+
+============================================================================= 
+
 ENDPOINT: /training/post/
 METHOD: post
 RESPONSE: Train model
