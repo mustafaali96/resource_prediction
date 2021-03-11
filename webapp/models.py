@@ -30,6 +30,15 @@ class Modules(models.Model):
     def __str__(self):
         return self.module
 
+class SubModule(models.Model):
+    sub_module = models.CharField(max_length=50, unique=True)
+    description = models.CharField(max_length=100, null=True, blank=True)
+    module = models.ForeignKey('Modules', on_delete=models.CASCADE)
+    created_at = models.DateTimeField(auto_now_add=True)
+    Updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f'{self.sub_module} | {self.module}'
 
 class ProjectTemplate(models.Model):
 
@@ -168,6 +177,7 @@ class Project(models.Model):
 
     def __str__(self):
         return self.displayname
+
 
 class Prediction(models.Model):
     project = models.ForeignKey("Project", on_delete=models.CASCADE)    

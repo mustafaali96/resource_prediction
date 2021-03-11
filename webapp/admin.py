@@ -3,7 +3,8 @@ from .models import *
 
 admin.site.register(User)
 admin.site.register(Designation)
-admin.site.register(Modules)    
+admin.site.register(Modules)   
+admin.site.register(SubModule) 
 admin.site.register(EmployeeModules)
 admin.site.register(ProjectTemplateModules)
 admin.site.register(ProjectTemplate)
