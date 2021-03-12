@@ -9,6 +9,18 @@ class ModulesSerializer(serializers.ModelSerializer):
         model = models.Modules
         fields = "__all__"
 
+    def to_representation(self, instance):
+        data = super().to_representation(instance)
+        instances = models.SubModule.objects.filter(module = instance.id)
+        data['subModules'] = SubModulesSerializer(instance= instances, many=True).data
+        return data
+        
+class SubModulesSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = models.SubModule
+        exclude = ('module',)
+
 
 
 class ProjectTemplateModulesSerializer(serializers.ModelSerializer):
