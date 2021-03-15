@@ -30,6 +30,7 @@ class Modules(models.Model):
     def __str__(self):
         return self.module
 
+
 class SubModule(models.Model):
     sub_module = models.CharField(max_length=50, unique=True)
     description = models.CharField(max_length=100, null=True, blank=True)
@@ -40,6 +41,7 @@ class SubModule(models.Model):
 
     def __str__(self):
         return f'{self.sub_module} | {self.module}'
+
 
 class ProjectTemplate(models.Model):
 
@@ -188,7 +190,9 @@ class Prediction(models.Model):
     designation = models.ForeignKey('Designation',
                             on_delete=models.CASCADE)
     modules = models.ManyToManyField('Modules', 
-                                related_name='Project_modules')
+                            related_name='Project_modules')
+    sub_module = models.ManyToManyField('SubModule', null=True, blank=True,
+                            related_name="prediction_submodule")
     cost = models.BigIntegerField(null=False, blank=False)
     created_at = models.DateTimeField(auto_now_add=True)
 
