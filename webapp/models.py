@@ -36,6 +36,7 @@ class SubModule(models.Model):
     module = models.ForeignKey('Modules', on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     Updated_at = models.DateTimeField(auto_now=True)
+    image = models.ImageField(upload_to ='media/SubModule', null=True, blank=True)
 
     def __str__(self):
         return f'{self.sub_module} | {self.module}'
@@ -44,6 +45,7 @@ class ProjectTemplate(models.Model):
 
     template = models.CharField(max_length=50, unique=True)
     description = models.CharField(max_length=255, null=True, blank=True)
+    image = models.ImageField(upload_to ='media/ProjectTemplate', null=True, blank=True)
 
     def __str__(self):
         return self.template
