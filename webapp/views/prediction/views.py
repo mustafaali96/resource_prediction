@@ -9,6 +9,7 @@ class PostPredictionAPIListView(ListAPIView):
         modules = request.POST.getlist("modules", [])
         region = request.POST.get('region')
         requirements = {}
+        
         for platform in platforms:
             requirements[platform] = modules
         designation_group = predict(requirements)
