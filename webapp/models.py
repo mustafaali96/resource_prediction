@@ -112,6 +112,7 @@ class ModuleTime(models.Model):
 
 class Region(models.Model):
     name = models.CharField(max_length=50)
+    image = models.ImageField(upload_to ='media/Region', null=True, blank=True)
 
     def __str__(self):
         return self.name
