@@ -33,38 +33,37 @@ def ProjectCost(designation_group, Region):
             group_hours[designation] = designation_time
         data[platform]["Platform Time"] = platform_time
         data[platform]["Platform Cost"] = 0
-        designation_group[platform]['Time'] = group_hours
         
-    for platform, stack in designation_group.items():
-        # print("\n\t****", platform, "****\n")
-        designation_time = stack["Time"]
-        platform_cost = 0
-        platform_time = 0
-        designation_rate = {}
-        for designation, time in designation_time.items():
-            query = '''SELECT
-                            webapp_designation.designation AS Designation,
-                            webapp_region.name AS Region,
-                            webapp_userhourlyrate.rate AS User_rate
-                        FROM
-                            webapp_designation 
-                            JOIN webapp_userhourlyrate ON webapp_userhourlyrate.designation_id = webapp_designation.id
-                            JOIN webapp_region ON webapp_region.id = webapp_userhourlyrate.region_id
-                        WHERE Designation = :designation AND Region = :region;'''
-            user_rate = pd.read_sql_query(query, connection, params={'designation': designation, 'region':Region})
-            rate = user_rate.User_rate.values[0] * time
-            # print(designation,"required",designation_time[designation], "hrs and cost will be:", rate, "$")
-            platform_cost += int(rate)
-            platform_time += time
-            designation_rate[designation] = rate
-        designation_group[platform]["Designation Cost"] = designation_rate
-        total_project_cost += platform_cost
-        # print("\nTotal time required for",platform, "is", platform_time)
-        # print("Total cost for",platform, "is", platform_cost)
-        designation_group[platform]['Platform Cost'] = platform_cost
+    # for platform, stack in designation_group.items():
+    #     # print("\n\t****", platform, "****\n")
+    #     designation_time = stack["Time"]
+    #     platform_cost = 0
+    #     platform_time = 0
+    #     designation_rate = {}
+    #     for designation, time in designation_time.items():
+    #         query = '''SELECT
+    #                         webapp_designation.designation AS Designation,
+    #                         webapp_region.name AS Region,
+    #                         webapp_userhourlyrate.rate AS User_rate
+    #                     FROM
+    #                         webapp_designation 
+    #                         JOIN webapp_userhourlyrate ON webapp_userhourlyrate.designation_id = webapp_designation.id
+    #                         JOIN webapp_region ON webapp_region.id = webapp_userhourlyrate.region_id
+    #                     WHERE Designation = :designation AND Region = :region;'''
+    #         user_rate = pd.read_sql_query(query, connection, params={'designation': designation, 'region':Region})
+    #         rate = user_rate.User_rate.values[0] * time
+    #         # print(designation,"required",designation_time[designation], "hrs and cost will be:", rate, "$")
+    #         platform_cost += int(rate)
+    #         platform_time += time
+    #         designation_rate[designation] = rate
+    #     designation_group[platform]["Designation Cost"] = designation_rate
+    #     total_project_cost += platform_cost
+    #     # print("\nTotal time required for",platform, "is", platform_time)
+    #     # print("Total cost for",platform, "is", platform_cost)
+    #     designation_group[platform]['Platform Cost'] = platform_cost
 
 
-# Each module time and cost
+    # Each module time and cost
     for platform, designations_module_time in data.items():
         platform_cost = 0
         for designation, module_time in designations_module_time.items():
@@ -85,14 +84,12 @@ def ProjectCost(designation_group, Region):
                     if(modules == 'Time' or modules == 'Cost'):
                         cost = module_time['Time'] * user_rate.User_rate.values[0]
                         data[platform][designation]['Cost'] = cost
+                        platform_cost += cost
                     else:
                         cost = designation_time['Module Time'] * user_rate.User_rate.values[0]
                         data[platform][designation][modules]['Module Cost'] = cost
-        platform_cost = 
-    designation_group["Total Project Time"] = project_time
-    designation_group["Total Project Cost"] = total_project_cost
+        data[platform]["Platform Cost"] = platform_cost
+        total_project_cost += platform_cost
     data["Total Project Time"] = project_time
-    # print("\nTotal Project Cost is:",total_project_cost)
-
-    print(data)
-    return designation_group
+    data["Total Project Cost"] = total_project_cost
+    return data
