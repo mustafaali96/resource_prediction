@@ -9,7 +9,7 @@ def ProjectCost(designation_group, Region):
     total_project_cost = 0
     for platform, group in designation_group.items():
         platform_time = 0
-        group_hours = {}
+        # group_hours = {}
         data[platform] = {}
         for designation, modules in group.items():
             data[platform][designation] = {}
@@ -23,14 +23,14 @@ def ProjectCost(designation_group, Region):
                                 webapp_modules
                             WHERE module = :module'''
                 module_time_df = pd.read_sql_query(query, connection, params={'module': module})
-                platform_designation_time = module_time_df['module_time'].values
-                data[platform][designation][module]["Module Time"] = platform_designation_time[0]
-                designation_time += platform_designation_time[0]
+                module_time = module_time_df['module_time'].values
+                data[platform][designation][module]["Module Time"] = module_time[0]
+                designation_time += module_time[0]
             platform_time += designation_time
             data[platform][designation]['Time'] = designation_time
             data[platform][designation]['Cost'] = 0
             project_time += designation_time
-            group_hours[designation] = designation_time
+            # group_hours[designation] = designation_time
         data[platform]["Platform Time"] = platform_time
         data[platform]["Platform Cost"] = 0
         
