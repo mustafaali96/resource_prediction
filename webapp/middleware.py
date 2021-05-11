@@ -9,5 +9,5 @@ class MyMiddleware:
         response["Access-Control-Allow-Origin"] = "*"
         response["Access-Control-Allow-Credentials"] = True
         response["Access-Control-Allow-Headers"] = "Origin,Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,locale"
-        response["Access-Control-Allow-Methods"] = "GET, POST, PUT, PATCH, DELETE, OPTIONS"
+        response["Access-Control-Allow-Methods"] = "GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD"
         return response
