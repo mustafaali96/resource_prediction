@@ -76,7 +76,6 @@ def ProjectCost(designation_group, Region):
     for platform, designations_module_time in data.items():
         platform_cost = 0
         for designation, modules_data in designations_module_time.items():
-            print(modules_data)
             if designation == 'Platform Time' or designation == 'Platform Cost':
                 pass
             else:
