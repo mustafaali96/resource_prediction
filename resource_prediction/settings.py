@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
+import django_heroku
+from django.conf import settings
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -29,6 +31,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1', '192.168.100.26', 'resource-prediction.herokuapp.com', 'mustafaali.pythonanywhere.com']
 
 AUTH_USER_MODEL = 'webapp.User'
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Application definition
 
@@ -132,5 +136,12 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
+
 MEDIA_ROOT = os.path.join(BASE_DIR)
 MEDIA_URL = '/media/'
+
+
+django_heroku.settings(locals())

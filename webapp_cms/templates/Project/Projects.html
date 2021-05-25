@@ -143,10 +143,10 @@
 
                     <div class="row mb-4">
                         <div class="col-md-12 text-right">
-                            <a href="./AddProject.html" class="btn my-btn" style="color: white;">
+                            <!-- <a href="./AddProject.html" class="btn my-btn" style="color: white;">
                                 <span><i class="nc-icon nc-simple-add m-0 mr-1" style="color: white;"></i></span>
                                 Add Now
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                     
@@ -159,47 +159,23 @@
                                             <tr>
                                                 <th>Name</th>
                                                 <th>Cost</th>
+                                                <th>Start Date</th>
                                                 <th>End Date</th>
                                                 <th>Template</th>
                                                 <th>Region</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td>Crypto CC</td>
-                                                <td>2500</td>
-                                                <td>30-05-2021</td>
-                                                <td>Custom</td>
-                                                <td>New York</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Crypto CC</td>
-                                                <td>2500</td>
-                                                <td>30-05-2021</td>
-                                                <td>Custom</td>
-                                                <td>New York</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Crypto CC</td>
-                                                <td>2500</td>
-                                                <td>30-05-2021</td>
-                                                <td>Custom</td>
-                                                <td>New York</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Crypto CC</td>
-                                                <td>2500</td>
-                                                <td>30-05-2021</td>
-                                                <td>Custom</td>
-                                                <td>New York</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Crypto CC</td>
-                                                <td>2500</td>
-                                                <td>30-05-2021</td>
-                                                <td>Custom</td>
-                                                <td>New York</td>
-                                            </tr>
+                                            {% for project in projects %}
+                                                <tr>
+                                                    <td>{{ project.name }}</td>
+                                                    <td>{{ project.cost }}</td>
+                                                    <td>{{ project.start_date }}</td>
+                                                    <td>{{ project.end_date }}</td>
+                                                    <td>{{ project.template }}</td>
+                                                    <td>{{ project.region }}</td>
+                                                </tr>
+                                            {% endfor %}
                                         </tbody>
                                     </table>
                                 </div>
@@ -218,8 +194,6 @@
 <script src="{% static '/assets/js/core/bootstrap.min.js' %}" type="text/javascript"></script>
 <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
 <script src="{% static '/assets/js/plugins/bootstrap-switch.js' %}"></script>
-<!--  Google Maps Plugin    -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
 <!--  Chartist Plugin  -->
 <script src="{% static '/assets/js/plugins/chartist.min.js' %}"></script>
 <!--  Notifications Plugin    -->
