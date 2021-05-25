@@ -16,3 +16,10 @@ class ProjectView(View):
             # badge['user_count'] = str(models.UserLessonRecord.objects.filter(lesson_id=badge.lesson_id).count())
             # all_badge_data.append(badge_data)
         return render(request, 'Project/Projects.html', {'projects': projects})
+
+class ProjectPredictionView(View):
+    def get(self, request, p_id, *args, **kwargs):
+        project_name = models.Project.objects.filter(id=p_id).get()
+        print(project_name)
+        project_resources = models.Prediction.objects.filter(project=p_id)[0]
+        return render(request, 'Project/Predictions.html', {'project_name':project_name, 'project_resources': project_resources})
