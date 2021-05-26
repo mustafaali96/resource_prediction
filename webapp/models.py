@@ -136,6 +136,7 @@ class UserHourlyRate(models.Model):
 
 class PlatformType(models.Model):
     platform_type = models.CharField(max_length=50, unique=True)
+    image = models.ImageField(upload_to ='media/Platform_Type', null=True, blank=True)
 
     def __str__(self):
         return self.platform_type
@@ -146,6 +147,8 @@ class Platform(models.Model):
     platform = models.CharField(max_length=50, unique=True)
     platform_type = models.ForeignKey('PlatformType', on_delete=models.CASCADE)
     description = models.CharField(max_length=50, null=True, blank=True)
+    image = models.ImageField(upload_to ='media/Platform', null=True, blank=True)
+    image_selected = models.ImageField(upload_to ='media/Platform', null=True, blank=True)
 
     def __str__(self):
         return self.platform
