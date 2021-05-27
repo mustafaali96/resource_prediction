@@ -20,6 +20,10 @@ class ProjectView(View):
 class ProjectPredictionView(View):
     def get(self, request, p_id, *args, **kwargs):
         project_name = models.Project.objects.filter(id=p_id).get()
-        print(project_name)
-        project_resources = models.Prediction.objects.filter(project=p_id)[0]
-        return render(request, 'Project/Predictions.html', {'project_name':project_name, 'project_resources': project_resources})
+        project_resources = models.Prediction.objects.filter(project=p_id)
+        platforms = project_resources.values_list('platform_id__platform', flat=True).distinct()
+        all_resources = {}
+        for platform in platforms:
+            all_resources[platform] = project_resources.filter(platform_id__platform=platform)
+                
+        return render(request, 'Project/Predictions.html', {'project_name':project_name, 'all_resources': all_resources})

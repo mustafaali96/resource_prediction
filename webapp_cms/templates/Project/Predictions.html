@@ -160,209 +160,36 @@
             <!-- End Navbar -->
             <div class="content">
                 <div class="container-fluid">
-                    <div style="margin-top: 20px;">
-                        <h4 style="font-weight: bold;">Platform: Android</h4>
-                        <div class="row mt-0">
-                            
-                            <div class="col-md-4">
-                                <div class="card py-4 px-2 cardContainer" id="1">
-                                    <div class="card-header p-0" style=" overflow: hidden;margin-bottom:10px">
-                                        <p class="card-category" style="color: gray;"><b>Designation: </b>SEO Expert</p>
-                                        <p class="card-category" style="color: gray;"><b>Cost: </b>2500</p>
-                                        <p class="card-category" style="color: gray;text-align: center;margin-top: 10px;"><b>Modules</b></p>
-                                        <div style="display: flex;justify-content: space-between;flex-wrap: wrap;">
-                                            <div style="width: 49%;;margin-top: 10px;">
-                                                <div  style="width: 100%;background-color:#f7f7f7;display: flex; justify-content: space-between;align-items: center;padding: 10px;border: solid 1px lightgray;">
-                                                    <h6>Login</h6>
-                                                    <a data-toggle="collapse"  data-target="#module1" style="font-size: 10px;" href="">View</a>
-                                                </div>
-                                                <div id="module1" class="collapse">
-                                                    <p style="color: gray;font-size: 12px;"><b>Sub Module:</b> Pay Fort</p> 
-                                                </div>
-                                            </div>
-                                            <div style="width: 49%;;margin-top: 10px;">
-                                                <div  style="width: 100%;background-color:#f7f7f7;display: flex; justify-content: space-between;align-items: center;padding: 10px;border: solid 1px lightgray;">
-                                                    <h6>Login</h6>
-                                                    <a data-toggle="collapse"  data-target="#module1" style="font-size: 10px;" href="">View</a>
-                                                </div>
-                                                <div id="module1" class="collapse">
-                                                    <p style="color: gray;font-size: 12px;"><b>Sub Module:</b> Pay Fort</p> 
+                    {% for platform, resources in all_resources.items %}
+                        <div style="margin-top: 20px;">
+                            <h4 style="font-weight: bold;">Platform: {{ platform }}</h4>
+                            <div class="row mt-0">
+                                {% for resource in resources %}
+                                    <div class="col-md-4">
+                                        <div class="card py-4 px-2 cardContainer" id="1">
+                                            <div class="card-header p-0" style=" overflow: hidden;margin-bottom:10px">
+                                                <p class="card-category" style="color: gray;"><b>Designation: </b>{{ resource.designation }}</p>
+                                                <p class="card-category" style="color: gray;"><b>Cost: </b>{{ resource.cost }}</p>
+                                                <p class="card-category" style="color: gray;text-align: center;margin-top: 10px;"><b>Modules</b></p>
+                                                <div style="display: flex;justify-content: space-between;flex-wrap: wrap;">
+                                                    {% for module in resource.modules.all %}
+                                                        <div style="width: 49%;;margin-top: 10px;">
+                                                            <div  style="width: 100%;background-color:#f7f7f7;display: flex; justify-content: space-between;align-items: center;padding: 10px;border: solid 1px lightgray;">
+                                                                <h6>{{ module }}</h6>
+                                                                <a data-toggle="collapse"  data-target="#module1" style="font-size: 10px;" href="">View</a>
+                                                            </div>
+                                                        </div>
+                                                    {% endfor %}
                                                 </div>
                                             </div>
+                                            <a href="" class='showModules' style="font-size: 10px; color: blue; font-weight: bold;position: absolute;right: 10px; bottom: 10px;">View Detail <i class="nc-icon nc-stre-down" style="color: blue;font-weight: bolder; font-size: 10px;"></i></a>    
+                                            <a href="" class='hideModules' style="font-size: 10px; color: blue; font-weight: bold;position: absolute;right: 10px; bottom: 10px;">View Detail <i class="nc-icon nc-stre-up" style="color: blue;font-weight: bolder; font-size: 10px;"></i></a>    
                                         </div>
                                     </div>
-                                    <a href="" class='showModules' style="font-size: 10px; color: blue; font-weight: bold;position: absolute;right: 10px; bottom: 10px;">View Detail <i class="nc-icon nc-stre-down" style="color: blue;font-weight: bolder; font-size: 10px;"></i></a>    
-                                    <a href="" class='hideModules' style="font-size: 10px; color: blue; font-weight: bold;position: absolute;right: 10px; bottom: 10px;">View Detail <i class="nc-icon nc-stre-up" style="color: blue;font-weight: bolder; font-size: 10px;"></i></a>    
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="card py-4 px-2 cardContainer" id="1">
-                                    <div class="card-header p-0" style=" overflow: hidden;margin-bottom:10px">
-                                        <p class="card-category" style="color: gray;"><b>Designation: </b>SEO Expert</p>
-                                        <p class="card-category" style="color: gray;"><b>Cost: </b>2500</p>
-                                        <p class="card-category" style="color: gray;text-align: center;margin-top: 10px;"><b>Modules</b></p>
-                                        <div style="display: flex;justify-content: space-between;flex-wrap: wrap;">
-                                            <div style="width: 49%;;margin-top: 10px;">
-                                                <div  style="width: 100%;background-color:#f7f7f7;display: flex; justify-content: space-between;align-items: center;padding: 10px;border: solid 1px lightgray;">
-                                                    <h6>Login</h6>
-                                                    <a data-toggle="collapse"  data-target="#module1" style="font-size: 10px;" href="">View</a>
-                                                </div>
-                                                <div id="module1" class="collapse">
-                                                    <p style="color: gray;font-size: 12px;"><b>Sub Module:</b> Pay Fort</p> 
-                                                </div>
-                                            </div>
-                                            <div style="width: 49%;;margin-top: 10px;">
-                                                <div  style="width: 100%;background-color:#f7f7f7;display: flex; justify-content: space-between;align-items: center;padding: 10px;border: solid 1px lightgray;">
-                                                    <h6>Login</h6>
-                                                    <a data-toggle="collapse"  data-target="#module1" style="font-size: 10px;" href="">View</a>
-                                                </div>
-                                                <div id="module1" class="collapse">
-                                                    <p style="color: gray;font-size: 12px;"><b>Sub Module:</b> Pay Fort</p> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <a href="" class='showModules' style="font-size: 10px; color: blue; font-weight: bold;position: absolute;right: 10px; bottom: 10px;">View More <i class="nc-icon nc-stre-down" style="color: blue;font-weight: bolder; font-size: 10px;"></i></a>    
-                                    <a href="" class='hideModules' style="font-size: 10px; color: blue; font-weight: bold;position: absolute;right: 10px; bottom: 10px;">View Less <i class="nc-icon nc-stre-up" style="color: blue;font-weight: bolder; font-size: 10px;"></i></a>    
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="card py-4 px-2 cardContainer" id="1">
-                                    <div class="card-header p-0" style=" overflow: hidden;margin-bottom:10px">
-                                        <p class="card-category" style="color: gray;"><b>Designation: </b>SEO Expert</p>
-                                        <p class="card-category" style="color: gray;"><b>Cost: </b>2500</p>
-                                        <p class="card-category" style="color: gray;text-align: center;margin-top: 10px;"><b>Modules</b></p>
-                                        <div style="display: flex;justify-content: space-between;flex-wrap: wrap;">
-                                            <div style="width: 49%;;margin-top: 10px;">
-                                                <div  style="width: 100%;background-color:#f7f7f7;display: flex; justify-content: space-between;align-items: center;padding: 10px;border: solid 1px lightgray;">
-                                                    <h6>Login</h6>
-                                                    <a data-toggle="collapse"  data-target="#module1" style="font-size: 10px;" href="">View</a>
-                                                </div>
-                                                <div id="module1" class="collapse">
-                                                    <p style="color: gray;font-size: 12px;"><b>Sub Module:</b> Pay Fort</p> 
-                                                </div>
-                                            </div>
-                                            <div style="width: 49%;;margin-top: 10px;">
-                                                <div  style="width: 100%;background-color:#f7f7f7;display: flex; justify-content: space-between;align-items: center;padding: 10px;border: solid 1px lightgray;">
-                                                    <h6>Login</h6>
-                                                    <a data-toggle="collapse"  data-target="#module1" style="font-size: 10px;" href="">View</a>
-                                                </div>
-                                                <div id="module1" class="collapse">
-                                                    <p style="color: gray;font-size: 12px;"><b>Sub Module:</b> Pay Fort</p> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <a href="" class='showModules' style="font-size: 10px; color: blue; font-weight: bold;position: absolute;right: 10px; bottom: 10px;">View More <i class="nc-icon nc-stre-down" style="color: blue;font-weight: bolder; font-size: 10px;"></i></a>    
-                                    <a href="" class='hideModules' style="font-size: 10px; color: blue; font-weight: bold;position: absolute;right: 10px; bottom: 10px;">View Less <i class="nc-icon nc-stre-up" style="color: blue;font-weight: bolder; font-size: 10px;"></i></a>    
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
-
-                    <div style="margin-top: 20px;">
-                        <h4 style="font-weight: bold;">Platform: WEB</h4>
-                        <div class="row mt-0">
-                            
-                            <div class="col-md-4">
-                                <div class="card py-4 px-2 cardContainer" id="1">
-                                    <div class="card-header p-0" style=" overflow: hidden;margin-bottom:10px">
-                                        <p class="card-category" style="color: gray;"><b>Designation: </b>SEO Expert</p>
-                                        <p class="card-category" style="color: gray;"><b>Cost: </b>2500</p>
-                                        <p class="card-category" style="color: gray;text-align: center;margin-top: 10px;"><b>Modules</b></p>
-                                        <div style="display: flex;justify-content: space-between;flex-wrap: wrap;">
-                                            <div style="width: 49%;;margin-top: 10px;">
-                                                <div  style="width: 100%;background-color:#f7f7f7;display: flex; justify-content: space-between;align-items: center;padding: 10px;border: solid 1px lightgray;">
-                                                    <h6>Login</h6>
-                                                    <a data-toggle="collapse"  data-target="#module1" style="font-size: 10px;" href="">View</a>
-                                                </div>
-                                                <div id="module1" class="collapse">
-                                                    <p style="color: gray;font-size: 12px;"><b>Sub Module:</b> Pay Fort</p> 
-                                                </div>
-                                            </div>
-                                            <div style="width: 49%;;margin-top: 10px;">
-                                                <div  style="width: 100%;background-color:#f7f7f7;display: flex; justify-content: space-between;align-items: center;padding: 10px;border: solid 1px lightgray;">
-                                                    <h6>Login</h6>
-                                                    <a data-toggle="collapse"  data-target="#module1" style="font-size: 10px;" href="">View</a>
-                                                </div>
-                                                <div id="module1" class="collapse">
-                                                    <p style="color: gray;font-size: 12px;"><b>Sub Module:</b> Pay Fort</p> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <a href="" class='showModules' style="font-size: 10px; color: blue; font-weight: bold;position: absolute;right: 10px; bottom: 10px;">View Detail <i class="nc-icon nc-stre-down" style="color: blue;font-weight: bolder; font-size: 10px;"></i></a>    
-                                    <a href="" class='hideModules' style="font-size: 10px; color: blue; font-weight: bold;position: absolute;right: 10px; bottom: 10px;">View Detail <i class="nc-icon nc-stre-up" style="color: blue;font-weight: bolder; font-size: 10px;"></i></a>    
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="card py-4 px-2 cardContainer" id="1">
-                                    <div class="card-header p-0" style=" overflow: hidden;margin-bottom:10px">
-                                        <p class="card-category" style="color: gray;"><b>Designation: </b>SEO Expert</p>
-                                        <p class="card-category" style="color: gray;"><b>Cost: </b>2500</p>
-                                        <p class="card-category" style="color: gray;text-align: center;margin-top: 10px;"><b>Modules</b></p>
-                                        <div style="display: flex;justify-content: space-between;flex-wrap: wrap;">
-                                            <div style="width: 49%;;margin-top: 10px;">
-                                                <div  style="width: 100%;background-color:#f7f7f7;display: flex; justify-content: space-between;align-items: center;padding: 10px;border: solid 1px lightgray;">
-                                                    <h6>Login</h6>
-                                                    <a data-toggle="collapse"  data-target="#module1" style="font-size: 10px;" href="">View</a>
-                                                </div>
-                                                <div id="module1" class="collapse">
-                                                    <p style="color: gray;font-size: 12px;"><b>Sub Module:</b> Pay Fort</p> 
-                                                </div>
-                                            </div>
-                                            <div style="width: 49%;;margin-top: 10px;">
-                                                <div  style="width: 100%;background-color:#f7f7f7;display: flex; justify-content: space-between;align-items: center;padding: 10px;border: solid 1px lightgray;">
-                                                    <h6>Login</h6>
-                                                    <a data-toggle="collapse"  data-target="#module1" style="font-size: 10px;" href="">View</a>
-                                                </div>
-                                                <div id="module1" class="collapse">
-                                                    <p style="color: gray;font-size: 12px;"><b>Sub Module:</b> Pay Fort</p> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <a href="" class='showModules' style="font-size: 10px; color: blue; font-weight: bold;position: absolute;right: 10px; bottom: 10px;">View More <i class="nc-icon nc-stre-down" style="color: blue;font-weight: bolder; font-size: 10px;"></i></a>    
-                                    <a href="" class='hideModules' style="font-size: 10px; color: blue; font-weight: bold;position: absolute;right: 10px; bottom: 10px;">View Less <i class="nc-icon nc-stre-up" style="color: blue;font-weight: bolder; font-size: 10px;"></i></a>    
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="card py-4 px-2 cardContainer" id="1">
-                                    <div class="card-header p-0" style=" overflow: hidden;margin-bottom:10px">
-                                        <p class="card-category" style="color: gray;"><b>Designation: </b>SEO Expert</p>
-                                        <p class="card-category" style="color: gray;"><b>Cost: </b>2500</p>
-                                        <p class="card-category" style="color: gray;text-align: center;margin-top: 10px;"><b>Modules</b></p>
-                                        <div style="display: flex;justify-content: space-between;flex-wrap: wrap;">
-                                            <div style="width: 49%;;margin-top: 10px;">
-                                                <div  style="width: 100%;background-color:#f7f7f7;display: flex; justify-content: space-between;align-items: center;padding: 10px;border: solid 1px lightgray;">
-                                                    <h6>Login</h6>
-                                                    <a data-toggle="collapse"  data-target="#module1" style="font-size: 10px;" href="">View</a>
-                                                </div>
-                                                <div id="module1" class="collapse">
-                                                    <p style="color: gray;font-size: 12px;"><b>Sub Module:</b> Pay Fort</p> 
-                                                </div>
-                                            </div>
-                                            <div style="width: 49%;;margin-top: 10px;">
-                                                <div  style="width: 100%;background-color:#f7f7f7;display: flex; justify-content: space-between;align-items: center;padding: 10px;border: solid 1px lightgray;">
-                                                    <h6>Login</h6>
-                                                    <a data-toggle="collapse"  data-target="#module1" style="font-size: 10px;" href="">View</a>
-                                                </div>
-                                                <div id="module1" class="collapse">
-                                                    <p style="color: gray;font-size: 12px;"><b>Sub Module:</b> Pay Fort</p> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <a href="" class='showModules' style="font-size: 10px; color: blue; font-weight: bold;position: absolute;right: 10px; bottom: 10px;">View More <i class="nc-icon nc-stre-down" style="color: blue;font-weight: bolder; font-size: 10px;"></i></a>    
-                                    <a href="" class='hideModules' style="font-size: 10px; color: blue; font-weight: bold;position: absolute;right: 10px; bottom: 10px;">View Less <i class="nc-icon nc-stre-up" style="color: blue;font-weight: bolder; font-size: 10px;"></i></a>    
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
+                                {% endfor %}
+                            </div> 
+                        </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
