@@ -5,7 +5,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path("", include("webapp_cms.views.projects.urls")),
-    # path("modules/", include("webapp.views.modules.urls")),
+    path("userRate/", include("webapp_cms.views.user_hour_rate.urls")),
     # path("platform/", include("webapp.views.platform.urls")),
     # path("region/", include("webapp.views.region.urls")),  
     # path("prediction/", include("webapp.views.prediction.urls")),
