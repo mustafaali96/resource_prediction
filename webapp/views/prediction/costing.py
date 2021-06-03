@@ -37,6 +37,7 @@ def ProjectCost(designation_group, Region):
             developer_data = {}
             developer_data['Developer Time'] = designation_time
             developer_data['Developer Cost'] = 0
+            developer_data['No of Resources'] = 1
             data[platform][designation].append(developer_data)
 
             project_time += designation_time

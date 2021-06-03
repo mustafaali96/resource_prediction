@@ -8,6 +8,7 @@ class PostPredictionAPIListView(ListAPIView):
         platforms = request.POST.getlist("platforms", [])
         modules = request.POST.getlist("modules", [])
         region = request.POST.get('region')
+        req_time = request.POST.get('time')
         requirements = {}
         
         for platform in platforms:
