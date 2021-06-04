@@ -3,7 +3,7 @@ import os
 from django.db import connection
 
 
-def ProjectCost(designation_group, Region):
+def ProjectCost(designation_group, project_req_time, Region):
     data = {}
     project_time = 0
     total_project_cost = 0
@@ -31,14 +31,19 @@ def ProjectCost(designation_group, Region):
                 module_data['Module Cost'] = 0
                 data[platform][designation].append(module_data)
                 designation_time += module_time[0]
-            platform_time += designation_time
             # data[platform][designation]['Developer Time'] = designation_time
             # data[platform][designation]['Developer Cost'] = 0
             developer_data = {}
+            no_resources = 1
+            temp_designation_time = designation_time
+            while designation_time > int(project_req_time):
+                no_resources += 1
+                designation_time = temp_designation_time/no_resources
             developer_data['Developer Time'] = designation_time
             developer_data['Developer Cost'] = 0
-            developer_data['No of Resources'] = 1
+            developer_data['No of Resources'] = no_resources
             data[platform][designation].append(developer_data)
+            platform_time += designation_time
 
             project_time += designation_time
         data[platform]["Platform Time"] = platform_time
@@ -93,7 +98,7 @@ def ProjectCost(designation_group, Region):
                 for module_data in modules_data:
                     for module, info in module_data.items():
                         if(module == 'Developer Time'):
-                            cost = info * user_rate.User_rate.values[0]
+                            cost = info * user_rate.User_rate.values[0] * module_data['No of Resources']
                             module_data['Developer Cost'] = cost
                             platform_cost += cost
                         elif(module == 'Module Time'):

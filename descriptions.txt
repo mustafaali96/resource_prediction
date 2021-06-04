@@ -50,6 +50,7 @@ Required Values:
     modules:store management
     modules:Student Dashboard
     modules:Certificate
+    time:40
 
 RESPONSE: Predicted Designation list for each Platforms
 
