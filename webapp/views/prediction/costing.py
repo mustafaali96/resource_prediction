@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 from django.db import connection
+import math
 
 
 def ProjectCost(designation_group, project_req_time, Region):
@@ -38,7 +39,7 @@ def ProjectCost(designation_group, project_req_time, Region):
             temp_designation_time = designation_time
             while designation_time > int(project_req_time):
                 no_resources += 1
-                designation_time = temp_designation_time/no_resources
+                designation_time = math.ceil(temp_designation_time/no_resources)
             developer_data['Developer Time'] = designation_time
             developer_data['Developer Cost'] = 0
             developer_data['No of Resources'] = no_resources
